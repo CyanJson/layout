@@ -3,9 +3,9 @@ const viewImg = document.querySelector(".view-img");
 const pfp = document.querySelector(".pfp");
 
 const img = [
-    `url("img2.jpg")`,
-    `url("img3.jpg")`,
-    `url("img4.jpg")`
+    `url("/images/img2.jpg")`,
+    `url("/images/img3.jpg")`,
+    `url("/images/img4.jpg")`
 ]
 
 for(let i = 0; i < img.length; i++){
@@ -27,7 +27,7 @@ viewImg.addEventListener('click', () => {
 
 pfp.addEventListener('click', () => {
     viewImg.style.display = "block";
-    viewImg.style.background = `url("img1.jpg")`;
+    viewImg.style.background = `url("/images/img1.jpg")`;
     viewImg.style.backgroundSize = "cover";
     viewImg.style.backgroundPosition = "center";
 });

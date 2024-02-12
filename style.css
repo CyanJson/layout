@@ -17,7 +17,7 @@ body{
     height: 100%;
     position: fixed;
     z-index: -1;
-    background: url("img1.jpg");
+    background: url("/images/img1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -51,6 +51,7 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 .collections{
